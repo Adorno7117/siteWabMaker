@@ -175,6 +175,17 @@ body {
     line-height: 48px;
     letter-spacing: 12px;
     margin-bottom: 45px;
+    color:#1B2735;
+    
+}
+.half-big-text2{
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 12px;
+    margin-bottom: 45px;
+    color:#fff;
     
 }
 
@@ -324,25 +335,25 @@ body {
     height: 66.6666666%;
 }
 .collage-image.one {
-    background: url('https://img.freepik.com/fotos-gratis/vista-aerea-da-colheita-de-verao-colheitadeira-colhendo-grande-campo_661209-357.jpg?t=st=1715114970~exp=1715118570~hmac=8ad86eeaf25e994037c0f52265050fc27f1f3892a3338befc63d28568055e7b8&w=740') no-repeat center;
+    background: url('./img/circulo1.png')
 }
 .collage-image.two {
     background: url('http://davideschenlohr.com/wp/david/wp-content/uploads/2015/08/type-set.jpg') no-repeat center;
 }
 .collage-image.three {
-    background: url('https://img.freepik.com/fotos-gratis/paisagem-preto-e-branco-com-lavanda_23-2149889414.jpg?t=st=1715113459~exp=1715117059~hmac=f5ac9c4bef9ca53b79af4d58e4945718d2e550c56f13a1104b9e8158985cebb7&w=1380') no-repeat center;
+    background: url('./img/circulo2.png')
 }
 .collage-image.four {
     background: url('http://www.secondchance.org/wp-content/uploads/2014/07/unsplash_52c8b9c40b624_1-copy.jpg') no-repeat left top;
 }
 .collage-image.five {
-    background: url('https://img.freepik.com/fotos-gratis/paisagem-de-verao_1398-1989.jpg?w=360&t=st=1715113305~exp=1715113905~hmac=36210634ea94c078f4dd5e1b7b21e5af8cdbb241f7b9e91101b57a2401a491d6') no-repeat center;
+    background: url('./img/circulo3.png')
 }
 .collage-image.six {
-    background: url('https://img.freepik.com/fotos-gratis/campo-de-trigo-de-colheita-combinada_342744-563.jpg?t=st=1715114912~exp=1715118512~hmac=d5676baa937e7d30fe475a31dac299c1e83b1ef55be4e3b1ab909cf8b4ebf1a5&w=1060') no-repeat center;
+    background: url('./img/circulo4.png') no-repeat center;
 }
 .collage-image.seven {
-    background: url('https://img.freepik.com/fotos-gratis/colheita-de-trigo-em-prado-tranquilo-ao-por-do-sol-gerado-por-ia_24640-80628.jpg?t=st=1715113642~exp=1715117242~hmac=1e23918b12390f31049176a4016cdcfae383eb355b4ef233d1d14e22bd32df2b&w=1380') no-repeat center;
+    background: url('./img/circulo2.png')
 }
 .portfolio-bottom {
     height: 300px;
