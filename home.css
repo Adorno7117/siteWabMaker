@@ -1320,3 +1320,110 @@ h3.span {
 
     }
 }
+@media (max-width: 400px){
+    .nav-img{
+        display: none;
+    }
+    .nav-logo{
+        left: 3%;
+        font-size: 50px;
+
+    }
+    .nav-link{
+        font-size: 8px;
+        padding: 0 4px;
+    }
+    .content{
+        left: 2%;
+        font-size: 32px;
+    }
+    .span{
+        font-size: 12.5px !important;
+        margin-right: 20px !important;
+    }
+    .half-big-text2{
+        letter-spacing: 6px;
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
+    .custom-btn.btn-3{
+        margin-top: 105px !important;
+    }
+    .page-content{
+        padding-left: 0rem !important;
+    }
+    .title {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      
+    .copy {
+        font-family: var(--font-serif);
+        font-size: 0.7rem;
+        font-style: italic;
+        line-height: 1.35;
+      }
+      
+    .btn-card {
+        cursor: pointer;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.65rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        text-transform: uppercase;
+        color: white;
+        background-color: black;
+        border: none;
+      }
+    .big-text{
+        font-size: 15px;
+    }
+    .abs-cent-text{
+        margin-top: 0px !important;
+    }
+    .quarter-div{
+    margin-bottom: 0px !important;
+    }
+    .half-big-text3 {
+        font-size: 14px;
+        line-height: 48px;
+        letter-spacing: 10.5px;
+        margin-bottom: 45px;
+        color: #1b2735 !important;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 4px 0px 0px 6px;
+    }
+    .small-header{
+        font-size: 15px !important;
+        letter-spacing: 4px;
+    }
+    div.abs-cent-text{
+        font-size: 12px;
+    }
+    .quad-half {
+        width: 50%;
+        text-align: left;
+        padding: 30px 10px 0px 0px;
+
+    }
+    .quad-half p {
+        width: 90%;
+        font-size: 10px !important;
+    }
+    .quad-half h2 {
+        font-size: 12px !important;
+    }
+    .quad-half h3 {
+        font-size: 10px !important;
+
+    }
+    .quad-half h4 {
+        font-size: 8px !important;
+        width: 20ch; 
+        overflow-wrap: break-word;
+
+}}
