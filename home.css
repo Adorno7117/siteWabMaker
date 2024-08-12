@@ -1147,6 +1147,7 @@ h3.span {
   );
 }
 
+
 .card:nth-child(1)::before {
   background-image: url('./img/siteHADASH.png');
 }
@@ -1208,9 +1209,73 @@ h3.span {
 .btn-card:focus {
   outline: 1px dashed yellow;
   outline-offset: 3px;
+}   
+@media (max-width: 1025px){
+    .nav-logo{
+        left: 12.5%;
+        font-size: 25px !important;
+    }
+    .nav-link{
+        font-size: 16px !important;
+        padding: 0 10px;
+    }
+    .content{
+        left: 24%;
+        font-size: 55px;
+    }
+    .span{
+        font-size: 13.2px !important;
+        margin-right: 60px !important;
+    }
+    .half-big-text2{
+        letter-spacing: 6px;
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
+    .page-content{
+        padding-left: 9rem !important;
+    }
+    .big-text{
+        font-size: 39px;
+    }
+    div.abs-cent-text p{
+        font-size: 22px;
+    }
 }
-
-
+@media (max-width: 850px){
+    .nav-logo{
+        left: 13%;
+        font-size: 20px !important;
+    }
+    .content{
+        left: 20%;
+        font-size: 55px;
+    }
+    .span{
+        font-size: 12px !important;
+        margin-right: 50px !important;
+    }
+    .half-big-text2{
+        letter-spacing: 6px;
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
+    .page-content{
+        padding-left: 4.5rem !important;
+    }
+    .big-text{
+        font-size: 35px;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 5px 0px 0px 7px;
+    }
+    .quad-half h4 {
+        font-size: 17px !important;
+        width: 23ch; 
+        overflow-wrap: break-word;
+    }
+}
 
 @media (max-width: 450px){
     .nav-img{
@@ -1427,3 +1492,246 @@ h3.span {
         overflow-wrap: break-word;
 
 }}
+
+@media (max-width: 450px){
+    .nav-img{
+        display: none;
+    }
+    .nav-logo{
+        left: 5%;
+        font-size: 50px;
+    }
+    .nav-link{
+        font-size: 8px;
+        padding: 0 6px;
+    }
+    .content{
+        left: 3%;
+        font-size: 38px;
+    }
+    .span{
+        font-size: 14px !important;
+        margin-right: 20px !important;
+    }
+    .half-big-text2{
+        letter-spacing: 6px;
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
+    .custom-btn{
+        margin-top: 120px !important;
+    }
+    .page-content{
+        padding-left: 0rem !important;
+    }
+    .title {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      
+    .copy {
+        font-family: var(--font-serif);
+        font-size: 0.7rem;
+        font-style: italic;
+        line-height: 1.35;
+      }
+      
+    .btn-card {
+        cursor: pointer;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.65rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        text-transform: uppercase;
+        color: white;
+        background-color: black;
+        border: none;
+      }
+    .big-text{
+        font-size: 15px;
+    }
+    .abs-cent-text{
+        margin-top: 0px !important;
+    }
+    .quarter-div{
+    margin-bottom: 0px !important;
+    }
+    .half-big-text3 {
+        font-size: 15px;
+        line-height: 48px;
+        letter-spacing: 12px;
+        margin-bottom: 45px;
+        color: #1b2735 !important;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 5px 0px 0px 7px;
+    }
+    .small-header{
+        font-size: 15px !important;
+        letter-spacing: 4px;
+    }
+    div.abs-cent-text{
+        font-size: 12px;
+    }
+    .quad-half {
+        width: 50%;
+        text-align: left;
+        padding: 30px 10px 0px 0px;
+
+    }
+    .quad-half p {
+        width: 90%;
+        font-size: 10px !important;
+    }
+    .quad-half h2 {
+        font-size: 12px !important;
+    }
+    .quad-half h3 {
+        font-size: 10px !important;
+
+    }
+    .quad-half h4 {
+        font-size: 8px !important;
+        width: 20ch; 
+        overflow-wrap: break-word;
+    }
+}
+@media (max-width: 400px){
+    .nav-img{
+        display: none;
+    }
+    .nav-logo{
+        left: 3%;
+        font-size: 13.5px !important;
+
+    }
+    .nav-link{
+        font-size: 8px;
+        padding: 0 3px;
+    }
+    .content{
+        left: 2%;
+        font-size: 32px;
+    }
+    .span{
+        font-size: 12.5px !important;
+        margin-right: 20px !important;
+    }
+    .half-big-text2{
+        letter-spacing: 6px;
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
+    .custom-btn.btn-3{
+        margin-top: 105px !important;
+    }
+    .page-content{
+        padding-left: 0rem !important;
+    }
+    .title {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      
+    .copy {
+        font-family: var(--font-serif);
+        font-size: 0.7rem;
+        font-style: italic;
+        line-height: 1.35;
+      }
+      
+    .btn-card {
+        cursor: pointer;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.65rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        text-transform: uppercase;
+        color: white;
+        background-color: black;
+        border: none;
+      }
+    .big-text{
+        font-size: 15px;
+    }
+    .abs-cent-text{
+        margin-top: 0px !important;
+    }
+    .quarter-div{
+    margin-bottom: 0px !important;
+    }
+    .half-big-text3 {
+        font-size: 14px;
+        line-height: 48px;
+        letter-spacing: 10.5px;
+        margin-bottom: 45px;
+        color: #1b2735 !important;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 4px 0px 0px 6px;
+    }
+    .small-header{
+        font-size: 15px !important;
+        letter-spacing: 4px;
+    }
+    div.abs-cent-text{
+        font-size: 12px;
+    }
+    .quad-half {
+        width: 50%;
+        text-align: left;
+        padding: 30px 10px 0px 0px;
+
+    }
+    .quad-half p {
+        width: 90%;
+        font-size: 10px !important;
+    }
+    .quad-half h2 {
+        font-size: 12px !important;
+    }
+    .quad-half h3 {
+        font-size: 10px !important;
+
+    }
+    .quad-half h4 {
+        font-size: 8px !important;
+        width: 20ch; 
+        overflow-wrap: break-word;
+    }
+}@media (max-width: 378px){
+    .nav-logo{
+        left: 4%;
+        font-size: 12px !important;
+    }
+    .nav-link{
+        font-size: 7.5px;
+        padding: 0 2.5px !important;
+    }
+    .content{
+        left: -1%;
+        font-size: 32px;
+    }
+    .half-big-text3{
+        letter-spacing: 8px !important;
+        font-size: 16px !important;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 4px 0px 0px 5px;
+    }
+    .small-header{
+        font-size: 15px !important;
+        letter-spacing: 4px;
+    }
+    div.abs-cent-text p{
+        font-size: 11px;
+    }
+
+}
