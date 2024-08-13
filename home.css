@@ -1217,11 +1217,11 @@ h3.span {
     }
     .nav-link{
         font-size: 16px !important;
-        padding: 0 10px;
+        padding: 0 10px !important;
     }
     .content{
-        left: 24%;
-        font-size: 55px;
+        left: 24% !important;
+        font-size: 55px !important;
     }
     .span{
         font-size: 13.2px !important;
@@ -1242,14 +1242,21 @@ h3.span {
         font-size: 22px;
     }
 }
-@media (max-width: 850px){
+@media (max-width: 855px){
+    .nav-img{
+        display: none;
+    }
     .nav-logo{
-        left: 13%;
+        left: 6% !important;
         font-size: 20px !important;
+    }
+    .nav-link{
+        font-size: 16px !important;
+        padding: 0 8px !important;
     }
     .content{
         left: 20%;
-        font-size: 55px;
+        font-size: 52px !important;
     }
     .span{
         font-size: 12px !important;
@@ -1276,6 +1283,61 @@ h3.span {
         overflow-wrap: break-word;
     }
 }
+@media (max-width: 550px){
+    .nav-logo{
+        left: 4%;
+        font-size: 15px !important;
+
+    }
+    .nav-link{
+        font-size: 10px !important;
+        padding: 0 6px !important;
+    }
+    .content{
+        left: 12% !important;
+        font-size: 41px !important;
+    }
+    .span{
+        font-size: 14px !important;
+        margin-right: 49px !important;
+    }
+    .page-content{
+        padding-left: 0rem !important;
+    }
+    .copy {
+        font-family: var(--font-serif);
+        font-size: 0.6rem;
+        font-style: italic;
+        line-height: 1.35;
+      }
+      .big-text{
+        font-size: 24px;
+    }
+    div.abs-cent-text P{
+        font-size: 12px;
+    }
+    .half-big-text3 {
+        font-size: 15px;
+        line-height: 48px;
+        letter-spacing: 12px;
+        margin-bottom: 45px;
+        color: #1b2735 !important;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 5px 0px 0px 7px;
+    }
+    .small-header{
+        font-size: 15px !important;
+        letter-spacing: 4px;
+    }
+    .quad-half h4 {
+        font-size: 11px !important;
+        width: 25ch; 
+        overflow-wrap: break-word;
+
+    }
+}
 
 @media (max-width: 450px){
     .nav-img{
@@ -1291,8 +1353,8 @@ h3.span {
         padding: 0 6px;
     }
     .content{
-        left: 3%;
-        font-size: 38px;
+        left: 3% !important;
+        font-size: 38px !important;
     }
     .span{
         font-size: 14px !important;
@@ -1399,8 +1461,8 @@ h3.span {
         padding: 0 4px;
     }
     .content{
-        left: 2%;
-        font-size: 32px;
+        left: 2% !important;
+        font-size: 32px !important;
     }
     .span{
         font-size: 12.5px !important;
@@ -1498,16 +1560,16 @@ h3.span {
         display: none;
     }
     .nav-logo{
-        left: 5%;
-        font-size: 50px;
+        left: 5% !important;
+        font-size: 15px !important;
     }
     .nav-link{
-        font-size: 8px;
-        padding: 0 6px;
+        font-size: 8px !important;
+        padding: 0 3px;
     }
     .content{
-        left: 3%;
-        font-size: 38px;
+        left: 3% !important;
+        font-size: 38px !important;
     }
     .span{
         font-size: 14px !important;
@@ -1571,10 +1633,10 @@ h3.span {
     }
     .small-header{
         font-size: 15px !important;
-        letter-spacing: 4px;
+        letter-spacing: 3.5px;
     }
-    div.abs-cent-text{
-        font-size: 12px;
+    div.abs-cent-text p{
+        font-size: 13px !important;
     }
     .quad-half {
         width: 50%;
@@ -1599,25 +1661,25 @@ h3.span {
         overflow-wrap: break-word;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 415px){
     .nav-img{
         display: none;
     }
     .nav-logo{
-        left: 3%;
+        left: 2.5% !important;
         font-size: 13.5px !important;
 
     }
     .nav-link{
-        font-size: 8px;
-        padding: 0 3px;
+        font-size: 8px !important;
+        padding: 0 3px !important;
     }
     .content{
-        left: 2%;
-        font-size: 32px;
+        left: 2.5% !important;
+        font-size: 32px !important;
     }
     .span{
-        font-size: 12.5px !important;
+        font-size: 12.7px !important;
         margin-right: 20px !important;
     }
     .half-big-text2{
@@ -1639,7 +1701,7 @@ h3.span {
       
     .copy {
         font-family: var(--font-serif);
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         font-style: italic;
         line-height: 1.35;
       }
@@ -1677,11 +1739,11 @@ h3.span {
         padding: 4px 0px 0px 6px;
     }
     .small-header{
-        font-size: 15px !important;
-        letter-spacing: 4px;
+        font-size: 13.5px !important;
+        letter-spacing: 3.5px;
     }
-    div.abs-cent-text{
-        font-size: 12px;
+    div.abs-cent-text p{
+        font-size: 12px !important;
     }
     .quad-half {
         width: 50%;
@@ -1711,12 +1773,12 @@ h3.span {
         font-size: 12px !important;
     }
     .nav-link{
-        font-size: 7.5px;
+        font-size: 7.5px !important;
         padding: 0 2.5px !important;
     }
     .content{
-        left: -1%;
-        font-size: 32px;
+        left: -1% !important;
+        font-size: 32px !important;
     }
     .half-big-text3{
         letter-spacing: 8px !important;
@@ -1731,7 +1793,57 @@ h3.span {
         letter-spacing: 4px;
     }
     div.abs-cent-text p{
-        font-size: 11px;
+        font-size: 11px !important; 
     }
 
+}
+@media (max-width: 361px){
+    .nav-logo{
+        left: 4% !important;
+        font-size: 11px !important;
+    }
+    .nav-link{
+        font-size: 7px !important;
+        padding: 0 1px !important;
+    }
+    .small-header{
+        font-size: 13px !important;
+        letter-spacing: 3px !important;
+    }
+    div.abs-cent-text p{
+        font-size: 10px !important;
+    }
+}
+@media (max-width: 345px){
+    .content{
+        left: 0%;
+        font-size: 27Px !important;
+    }
+    .span{
+        font-size: 12px !important;
+        margin-right: 30px !important;
+    }
+    .copy {
+        font-family: var(--font-serif);
+        font-size: 0.55rem !important;
+        font-style: italic;
+        line-height: 1.35;
+      }
+      .big-text{
+        font-size: 14px;
+    }
+    .half-big-text3 {
+        font-size: 14px;
+        line-height: 48px;
+        letter-spacing: 6px !important;
+        margin-bottom: 45px;
+        color: #1b2735 !important;
+    }
+    .half-big-text3.has-border {
+        margin: 0 auto 90px;
+        padding: 4px 0px 0px 6px;
+    }
+    .half-big-text{
+        font-size: 24px !important;
+    }
 }
