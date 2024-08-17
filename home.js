@@ -47,14 +47,4 @@ document.addEventListener("DOMContentLoaded", function() {
     var cards = document.querySelectorAll(".card");
     var mediaQuery = window.matchMedia("(max-width: 855px)");
 
-    function handleClick() {
-        if (mediaQuery.matches) {
-            var url = this.getAttribute("data-url");
-            window.location.href = url;
-        }
-    }
-
-    cards.forEach(function(card) {
-        card.addEventListener("click", handleClick);
-    });
 });
