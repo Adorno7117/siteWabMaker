@@ -47,4 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var cards = document.querySelectorAll(".card");
     var mediaQuery = window.matchMedia("(max-width: 855px)");
 
+    cards.forEach(function(card) {
+        card.addEventListener("click");
+    });
 });
