@@ -1072,7 +1072,7 @@ h3.span {
   display: flex;
   grid-gap: 1rem;
   padding: 1rem;
-  padding-left: 19rem !important;
+  padding-left: 12rem !important;
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
@@ -1155,6 +1155,11 @@ h3.span {
 .card:nth-child(2)::before {
   background-image: url('./img/siteEPPA.png');
 }
+
+.card:nth-child(3)::before {
+  background-image: url('./img/siteJessica.png');
+}
+
 
 
 
